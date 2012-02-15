@@ -7,12 +7,13 @@ gem 'rails', '3.2.1'
 
 group :development, :test do
   gem 'sqlite3', :group => :development
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.8.0'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.8.0'
   gem 'webrat', '0.7.1'
+  ##gem 'spork', '0.9.0'
 end
 
 # production uses postgres and "thin" web server
